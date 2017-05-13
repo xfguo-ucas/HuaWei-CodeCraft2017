@@ -28,11 +28,11 @@ void deploy_server(char * topo[MAX_EDGE_NUM], int line_num,char * filename)
     //graph.ShortestPath_Floyd();
     MCF.initial(graph, graph_param);
     //Genome GenenticAlgorithm;
-    //GenenticAlgorithm.GA(graph);
+    GenenticAlgorithm.GA(graph);
     //GenenticAlgorithm.climbMountain(graph);
     //PSO pso;
     //pso.optimize(graph);
-    optimize(graph);
+    //optimize(graph);
     
     
 
